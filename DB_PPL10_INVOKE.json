@@ -1,0 +1,74 @@
+{
+  "agentGroupId": "DELA_DEV_GROUP",
+  "agentRequired": true,
+  "agentSupported": true,
+  "connectionProperties": [
+    {
+      "displayName": "Host",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyGroup": "CONNECTION_PROPS",
+      "propertyName": "Host",
+      "propertyType": "STRING",
+      "propertyValue": "10.70.40.2",
+      "requiredFlag": false
+    },
+    {
+      "displayName": "Port",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyGroup": "CONNECTION_PROPS",
+      "propertyName": "Port",
+      "propertyType": "STRING",
+      "propertyValue": "1521",
+      "requiredFlag": false
+    },
+    {
+      "displayName": "SID",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyGroup": "CONNECTION_PROPS",
+      "propertyName": "SID",
+      "propertyType": "STRING",
+      "requiredFlag": false
+    },
+    {
+      "displayName": "Service Name",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyGroup": "CONNECTION_PROPS",
+      "propertyName": "ServiceName",
+      "propertyType": "STRING",
+      "propertyValue": "insisdb.sndelainsdbdev.vcndelanonprd.oraclevcn.com",
+      "requiredFlag": false
+    }
+  ],
+  "description": "DB PEOPLEV10 INVOKE SCHEME",
+  "id": "DB_PPL10_INVOKE",
+  "role": "TARGET",
+  "securityPolicy": "USERNAME_PASSWORD_TOKEN",
+  "securityProperties": [
+    {
+      "displayName": "Username",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyDescription": "A username credential",
+      "propertyGroup": "CREDENTIALS",
+      "propertyName": "username",
+      "propertyType": "STRING",
+      "propertyValue": "INSIS_PEOPLE_V10",
+      "requiredFlag": true
+    },
+    {
+      "displayName": "Password",
+      "hasAttachment": false,
+      "hiddenFlag": false,
+      "propertyDescription": "A password credential",
+      "propertyGroup": "CREDENTIALS",
+      "propertyName": "password",
+      "propertyType": "PASSWORD",
+      "propertyValue": "*****",
+      "requiredFlag": true
+    }
+  ]
+}
