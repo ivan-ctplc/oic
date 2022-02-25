@@ -1,7 +1,0 @@
-{
-  "agentRequired": false,
-  "agentSupported": false,
-  "id": "REST_DATA_TRIGGER",
-  "role": "SOURCE",
-  "securityPolicy": "MULTI_TOKEN_INBOUND"
-}
